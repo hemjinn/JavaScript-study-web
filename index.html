@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&display=swap');
+      </style>
+	<title>My website</title>
+</head>
+<body class="body" background-image="image/1.jpg">
+    <form id="login-form" class="hidden">
+        <input required maxlength="15" type="text" placeholder="username">
+        <input type="submit" value="login">
+    </form>
+    
+    <h1 id="clock" class="h1-position">00:00:00</h1>
+    <h1 id="title" class="hidden, h1-position"></h1>
+
+    <form id="todo-form" class="input-position">
+        <input maxlength="20" type="text" placeholder="Todo-List">
+        <input type="submit" value="upload">
+    </form>
+    <ul id="todo-list" class="li-position"></ul>
+
+    <script src="js/app.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/img.js"></script>
+    <script src="js/todo.js"></script>
+</body>
+</html>

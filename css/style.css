@@ -1,0 +1,33 @@
+body {
+    background-size: cover;
+    background-color: #999999;
+}
+
+.h1-position {
+    font-family: 'Bagel Fat One', cursive;
+    font-size: 50px;
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-position {
+    display:table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.li-position {
+    font-family: 'Bagel Fat One', cursive;
+    font-size: 20px;
+    color: whitesmoke;
+    display:table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hidden {
+    display: none;
+}
